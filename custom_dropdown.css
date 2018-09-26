@@ -1,0 +1,21 @@
+.customDropdown {
+    font-size: 0.8em;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.customDropdown a:hover {
+    background-color: #3399ff;
+}
+/**
+ * Parent elements
+ */
+.customDropdown > div > a{
+    font-weight: bold;
+}
+
+.customDropdownToggler:after{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
