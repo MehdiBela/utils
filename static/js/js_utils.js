@@ -23,8 +23,8 @@ function recurseDropdown(elems) {
             child_div.append(
                 recurseDropdown(elems[x].children)
             );
+            div.append(child_div);
         }
-        div.append(child_div);
     }
     return div
 }
